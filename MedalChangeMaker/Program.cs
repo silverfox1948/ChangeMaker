@@ -9,7 +9,7 @@
 			if (isValid)
 			{
 				var changeMaker = new ChangeMaker();
-				var result = ChangeMaker.
+				var result = changeMaker.CalculateNumberOfWays(options.ChangeAmount, options.denominations);
 			}
 		}
 	}

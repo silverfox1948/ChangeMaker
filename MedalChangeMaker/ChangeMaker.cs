@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MedalChangeMaker
 {
 	public class ChangeMaker
 	{
-		int[] denomArray;
-		int[] maxCoeffArray;
+		int[]denomArray;
+		int[]maxCoeffArray;
 		int changeFor;
 		int adjTarget;
 		int countOfWays;
@@ -14,11 +15,11 @@ namespace MedalChangeMaker
 		public ChangeMaker()
 		{}
 
-		public int CalculateNumberOfWays(int changeFor, int[] denominations)
+		public int CalculateNumberOfWays(int changeAmount, List<int> denominations)
 		{
-			denomArray = denominations;
-			this.changeFor = changeFor;
-			Array.Sort(denomArray);
+			denomArray = denominations.ToArray();
+			changeFor = changeAmount;
+			//Array.Sort(denomArray);
 			maxCoeffArray = new int[denomArray.Length];
 			Console.WriteLine("sorted denomArray:: [{0}, {1}, {2}, {3}]", denomArray[0], denomArray[1], denomArray[2], denomArray[3]);
 			adjTarget = (changeFor / denomArray[1]) * denomArray[1];
