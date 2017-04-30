@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeMaker", "ChangeMaker\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{31B7C35C-AB28-4161-AFC6-55A330889C3C}"
 	ProjectSection(SolutionItems) = preProject
+		ChangeMaker\nugetlist.bmp = ChangeMaker\nugetlist.bmp
 		Readme.md = Readme.md
+		ChangeMaker\runparameters.bmp = ChangeMaker\runparameters.bmp
 	EndProjectSection
 EndProject
 Global
