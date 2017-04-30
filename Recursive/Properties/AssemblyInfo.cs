@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MedalChangeMaker")]
+[assembly: AssemblyTitle("Recursive")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MedalChangeMaker")]
+[assembly: AssemblyProduct("Recursive")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("58beaf80-f921-4a26-9b40-88257e900aec")]
+[assembly: Guid("cfd7c92f-68a1-451a-9c5c-5b5f31621024")]
 
 // Version information for an assembly consists of the following four values:
 //
