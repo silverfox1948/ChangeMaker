@@ -4,12 +4,12 @@ using NLog;
 using NLog.Config;
 using NLog.Targets;
 
-namespace Recursive
+namespace ChangeMaker
 {
 	class Program
 	{
 		public static NLog.Logger logger = NLog.LogManager.GetLogger("Logger");
-		public static string LogFileName;// = "Recursive.txt";
+		public static string LogFileName;
 
 		static void Main(string[] args)
 		{
@@ -34,7 +34,7 @@ namespace Recursive
 		{
 			var config = new LoggingConfiguration();
 			var fileTarget = new FileTarget();
-			LogFileName = AppDomain.CurrentDomain.BaseDirectory + @"recursive.txt";
+			LogFileName = AppDomain.CurrentDomain.BaseDirectory + @"changemaker.txt";
 			fileTarget.Name = "fileTarget";
 			fileTarget.FileName = LogFileName;
 			fileTarget.Layout = "${message}";

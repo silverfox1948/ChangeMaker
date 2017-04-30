@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CFD7C92F-68A1-451A-9C5C-5B5F31621024}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Recursive</RootNamespace>
-    <AssemblyName>Recursive</AssemblyName>
+    <RootNamespace>ChangeMaker</RootNamespace>
+    <AssemblyName>ChangeMaker</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
