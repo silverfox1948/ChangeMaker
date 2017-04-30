@@ -44,6 +44,7 @@ namespace ChangeMaker
 				logger.Debug("elapsed milliseconds:: {0}", timer.ElapsedMilliseconds);
 				Process.Start(LogFileName);
 			}
+			Console.Read();
 		}
 
 		private static void ConfigureLogging()
