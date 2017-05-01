@@ -90,6 +90,7 @@ The Command Line parser tool I selected seemed to fail to correctly validate the
 ## What I'd do different/better in the next round
 * Validation: no sense letting a simple data entry error eat your computer
 * Truncate the recursion by checking the total at every level. One of the advantages of sorting the array in the manner I did, means I can stop interating on an index once I get a total greater than the amount desired. The reason I didn't is again, time. Not so much coding time, but testing time. I also had to write the documentation and that also takes a while. It's not just a coding test ...
+* Refactor it so it isn't dependent on sorting the denominations
 *  Read more about the combinatorics and actually implement a Math solution.
 *  Add an ability to add change for denominations that are not whole numbers - thus coins - and amounts that are not whole numbers. In other words, generalize it.
 * Unit Tests ('nuff said)
